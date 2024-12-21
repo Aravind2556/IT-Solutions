@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.service_choose{
+    position: relative;
+    top: 800px;
+}
+.portfolio{
+    position: relative;
+    top: 1100px;
+}
