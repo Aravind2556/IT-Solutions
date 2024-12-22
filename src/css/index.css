@@ -4,9 +4,17 @@
 
 .service_choose{
     position: relative;
-    top: 800px;
+    top: 400px;
 }
 .portfolio{
     position: relative;
-    top: 1100px;
+    top: 430px;
+}
+.scroll{
+    position: relative;
+    top: 450px;
+}
+.companygrowth{
+    position: relative;
+    top: 500px;
 }

@@ -5,6 +5,8 @@ import { Header } from './Webpages/Header'
 import { Home } from './Webpages/Home'
 import { Services } from './Webpages/Services'
 import { Portfolio } from './Webpages/Portfolio'
+import { Testimonials } from './Webpages/Testimonials'
+import { Growth } from './Webpages/Growth'
 
 export const Storage = () => {
   return (
@@ -20,6 +22,8 @@ export const Storage = () => {
         <Home/>
         <Services/>
         <Portfolio/>
+        <Testimonials/>
+        <Growth/>
     </div>
     </>
   )
@@ -135,4 +139,15 @@ export const Storage = () => {
 //         </div>
 //     );
 // };
+
+
+
+ // useEffect(() => {
+    //     // Prevent scrolling when the component mounts
+    //     document.body.style.overflow = "hidden";
+    //     return () => {
+    //         // Enable scrolling when the component unmounts
+    //         document.body.style.overflow = "auto";
+    //     };
+    // }, []);
 

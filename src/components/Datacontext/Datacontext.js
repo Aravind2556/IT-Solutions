@@ -113,7 +113,78 @@ const portfolio = [
   },{
     image : "hfyt"
 
+  },
+  {
+    pricingplane : [
+      {
+        bacsic : "bascic",
+        amount : "87897",
+        space : "jjbd",
+        domain : "jhdgsj",
+        ssl : "jsdhj",
+        backup : "jskdh",
+        templete : "sdjvhudc",
+        email : "sjbvjhs",
+        database : "jfvhgsh",
+        unlimitedemail  :"dsbhuj",
+        support : "vsgdbvjchs",
+        order : "sjvgh"
+
+      },
+      {
+        bacsic : "bascic",
+        amount : "87897",
+        space : "jjbd",
+        domain : "jhdgsj",
+        ssl : "jsdhj",
+        backup : "jskdh",
+        templete : "sdjvhudc",
+        email : "sjbvjhs",
+        database : "jfvhgsh",
+        unlimitedemail  :"dsbhuj",
+        support : "vsgdbvjchs",
+        order : "sjvgh"
+
+      },
+      {
+        bacsic : "bascic",
+        amount : "87897",
+        space : "jjbd",
+        domain : "jhdgsj",
+        ssl : "jsdhj",
+        backup : "jskdh",
+        templete : "sdjvhudc",
+        email : "sjbvjhs",
+        database : "jfvhgsh",
+        unlimitedemail  :"dsbhuj",
+        support : "vsgdbvjchs",
+        order : "sjvgh"
+
+      },
+    ]
   }
+]
+
+const client = [
+  {
+    image : "jvhdbs",
+    number : "jsvuhbshj",
+    content : "nbdsvhjbs",
+    para : "bvhbvjdbvnn"
+  },
+  {
+    image : "jvhdbs",
+    number : "jsvuhbshj",
+    content : "nbdsvhjbs",
+    para : "bvhbvjdbvnn"
+  },
+  {
+    image : "jvhdbs",
+    number : "jsvuhbshj",
+    content : "nbdsvhjbs",
+    para : "bvhbvjdbvnn"
+  }
+
 ]
 
    
@@ -124,7 +195,7 @@ const portfolio = [
     
 
 
-    const data = {navbar,service,portfolio}
+    const data = {navbar,service,portfolio,client}
 
   return (
     <DContext.Provider value={data}>

@@ -1,20 +1,11 @@
 import React from 'react';
 
 
-import backgorundvideo from '../../assest/3130284-uhd_3840_2160_30fps.mp4';
+import backgorundvideo from '../../assest/WhatsApp Video 2024-12-21 at 21.37.21_df7c97ae.mp4';
 
 export const Navbar = () => {
     
-   
 
-    // useEffect(() => {
-    //     // Prevent scrolling when the component mounts
-    //     document.body.style.overflow = "hidden";
-    //     return () => {
-    //         // Enable scrolling when the component unmounts
-    //         document.body.style.overflow = "auto";
-    //     };
-    // }, []);
 
     return (
         
