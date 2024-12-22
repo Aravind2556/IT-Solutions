@@ -35,7 +35,7 @@ export const Home = () => {
   return (
     <div className="relative z-10 grid justify-center items-center w-full h-full text-white px-4 top-64 gap-10">
       {/* Header */}
-      <div className="text-3xl font-semibold text-green-700 sm:text-4xl md:text-5xl">
+      <div className="text-3xl font-semibold text-blue-600 sm:text-4xl md:text-5xl">
         <p>Delivering Superior Services IT Solutions.</p>
       </div>
       

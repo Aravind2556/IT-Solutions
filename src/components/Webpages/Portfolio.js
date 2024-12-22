@@ -75,19 +75,19 @@ export const Portfolio = () => {
         {/* Portfolio Header Section */}
         <div className="z-10 grid justify-center gap-6 text-center mt-8">
           <div>
-            <p className="text-3xl sm:text-4xl font-semibold text-green-700">Our Portfolio</p>
+            <p className="text-3xl sm:text-4xl font-semibold text-blue-600">Our Portfolio</p>
             <p className="text-sm sm:text-base text-gray-500">
               jksdjhsdjvbhjdbjsdbvhjsvhjhsdjsdb
             </p>
           </div>
 
           {/* Categories Section */}
-          <div className="flex flex-wrap justify-center gap-4 sm:gap-8 text-green-700 font-semibold">
-            <p className="cursor-pointer hover:text-green-500">All</p>
-            <p className="cursor-pointer hover:text-green-500">App Design</p>
-            <p className="cursor-pointer hover:text-green-500">Development</p>
-            <p className="cursor-pointer hover:text-green-500">Branding</p>
-            <p className="cursor-pointer hover:text-green-500">IT Solution</p>
+          <div className="flex flex-wrap justify-center gap-4 sm:gap-8 text-black font-semibold">
+            <p className="cursor-pointer">All</p>
+            <p className="cursor-pointer">App Design</p>
+            <p className="cursor-pointer">Development</p>
+            <p className="cursor-pointer">Branding</p>
+            <p className="cursor-pointer">IT Solution</p>
           </div>
         </div>
 
@@ -97,7 +97,7 @@ export const Portfolio = () => {
             limitedPortfolio.map((data, index) => (
               <div
                 key={index}
-                className="w-full sm:w-64 md:w-72 lg:w-80 bg-green-400 text-green-950 font-semibold text-center p-4 rounded-md shadow-lg mb-6">
+                className="w-full sm:w-64 md:w-72 lg:w-80 text-black bg-white font-semibold text-center p-4 rounded-md shadow-lg mb-6">
                 <p>{data.image}</p>
               </div>
             ))
@@ -109,15 +109,15 @@ export const Portfolio = () => {
         {/* Pricing Plans Section */}
         <div>
           <div className="justify-center grid">
-            <p className="text-3xl sm:text-4xl font-semibold text-green-700">Pricing Plans</p>
-            <p className="text-sm sm:text-base text-gray-500">nsnvsknb shvbs sdbv sdbsd</p>
+            <p className="text-3xl sm:text-4xl font-semibold text-blue-600">Pricing Plans</p>
+            <p className="text-sm sm:text-base text-black">nsnvsknb shvbs sdbv sdbsd</p>
           </div>
           <div className="relative z-10 flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-14 mt-8">
             {filterportfolio && filterportfolio.length > 0 ? (
               filterportfolio.map((data, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-64 md:w-72 lg:w-80 bg-green-400 text-green-950 font-semibold text-center p-4 rounded-md shadow-lg mb-6">
+                  className="w-full sm:w-64 md:w-72 lg:w-80 text-black bg-white font-semibold text-center p-4 rounded-md shadow-lg mb-6">
                   <p>{data.bacsisc}</p>
                   <p>{data.amount}</p>
                   <p>{data.backup}</p>

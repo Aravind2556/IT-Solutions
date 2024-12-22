@@ -80,7 +80,7 @@ export const Services = () => {
           limitedServices.map((data, index) => (
             <div
               key={index}
-              className="w-full sm:w-64 md:w-72 lg:w-80 bg-green-400 text-green-950 font-semibold text-center p-4 rounded-md shadow-lg"
+              className="w-full sm:w-64 md:w-72 lg:w-80 text-black bg-white font-semibold text-center p-4 rounded-md shadow-lg"
             >
               <p className="mb-2">{data.image}</p>
               <p className="text-xl mb-2">{data.topic}</p>
@@ -95,8 +95,8 @@ export const Services = () => {
       {/* "Why Choose Us" Section */}
       <div className="service_choose px-4">
         <div className="grid justify-center relative bottom-14 gap-4">
-          <p className="text-3xl sm:text-4xl md:text-5xl font-semibold text-green-700">Why Choose Us</p>
-          <p className="text-sm sm:text-base md:text-lg font-bold text-gray-500">
+          <p className="text-3xl sm:text-4xl md:text-5xl font-semibold text-blue-600">Why Choose Us</p>
+          <p className="text-sm sm:text-base md:text-lg font-bold text-black">
             jksdbchbscbdjcbschbnjcbdcnbsbj
           </p>
         </div>
@@ -107,7 +107,7 @@ export const Services = () => {
             filteredServices.map((data, index) => (
               <div
                 key={index}
-                className="w-full sm:w-64 md:w-72 lg:w-80 bg-green-400 text-green-950 font-semibold text-center p-4 rounded-md shadow-lg"
+                className="w-full sm:w-64 md:w-72 lg:w-80 text-black bg-white font-semibold text-center p-4 rounded-md shadow-lg"
               >
                 <p className="mb-2">{data.image}</p>
                 <p className="text-xl mb-2">{data.topic}</p>

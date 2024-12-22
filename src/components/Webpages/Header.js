@@ -116,7 +116,7 @@ export const Header = () => {
     };
 
     return (
-        <header className="fixed z-20 text-white w-full h-20 bg-black opacity-90">
+        <header className="fixed z-20 text-black w-full h-20 bg-white ">
             <div className="container mx-auto flex justify-between items-center px-4 md:px-8 h-full">
                 {/* Logo */}
                 <div className="text-lg font-bold">{navbar.logo}</div>
@@ -142,7 +142,7 @@ export const Header = () => {
                             {navbar.menu}
                         </p>
                         {menuOpen && (
-                            <div className="absolute top-full left-0 bg-gray-800 text-white shadow-lg py-2 rounded-md w-40">
+                            <div className="absolute top-full left-0 bg-white text-black shadow-lg py-2 rounded-md w-40">
                                 <p
                                     className="px-4 py-2 hover:bg-gray-600 cursor-pointer"
                                     onClick={handleMenuItemClick} // Close on item click
@@ -173,16 +173,16 @@ export const Header = () => {
                 <div className="md:hidden">
                     <button
                         onClick={toggleMobileMenu}
-                        className="text-white focus:outline-none"
+                        className="text-black focus:outline-none"
                     >
-                        {mobileMenuOpen ? 'Close' : 'Menu'}
+                        {mobileMenuOpen ? '❌' : '🔽'}
                     </button>
                 </div>
             </div>
 
             {/* Mobile Menu */}
             {mobileMenuOpen && (
-                <div className="md:hidden bg-gray-900 text-white px-4 py-6">
+                <div className="md:hidden bg-white text-black px-4 py-6">
                     <p className="py-2">{navbar.home}</p>
                     <p className="py-2">{navbar.services}</p>
                     <p className="py-2">{navbar.portfolio}</p>
