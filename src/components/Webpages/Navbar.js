@@ -1,20 +1,43 @@
-import React from 'react';
+// import React from 'react';
 
 
-import backgorundvideo from '../../assest/WhatsApp Video 2024-12-21 at 21.37.21_df7c97ae.mp4';
+// import backgorundvideo from '../../assest/7020018_Particle_Dot_3840x2160.mp4';
 
-export const Navbar = () => {
+// export const Navbar = () => {
     
 
 
-    return (
+//     return (
         
-        <div className=" fixed w-screen h-screen ">
-            <video
-                className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-85" src={backgorundvideo} autoPlay loop muted></video>
-        </div>
+//         <div className=" fixed w-screen h-screen ">
+//             <video
+//                 className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-85" src={backgorundvideo} autoPlay loop muted></video>
+//         </div>
         
         
-    );
+//     );
+// };
+
+
+import React from 'react';
+import backgroundVideo from '../../assest/7020018_Particle_Dot_3840x2160.mp4';
+
+export const Navbar = () => {
+  return (
+    <div className="fixed w-screen h-screen">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-80"
+        src={backgroundVideo}
+        autoPlay
+        loop
+        muted
+      ></video>
+
+      {/* Dark Gradient Overlay */}
+      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black via-gray-900 to-black opacity-95 z-10"></div>
+    </div>
+  );
 };
+
 

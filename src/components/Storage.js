@@ -7,6 +7,7 @@ import { Services } from './Webpages/Services'
 import { Portfolio } from './Webpages/Portfolio'
 import { Testimonials } from './Webpages/Testimonials'
 import { Growth } from './Webpages/Growth'
+import { Team } from './Webpages/Team'
 
 export const Storage = () => {
   return (
@@ -24,6 +25,7 @@ export const Storage = () => {
         <Portfolio/>
         <Testimonials/>
         <Growth/>
+        <Team/>
     </div>
     </>
   )

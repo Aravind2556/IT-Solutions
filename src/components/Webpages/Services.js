@@ -1,63 +1,3 @@
-// import React, { useContext } from 'react'
-// import { DContext } from '../Datacontext/Datacontext'
-
-// export const Services = () => {
-//   const {service}=useContext(DContext)
-//   console.log("service",service)
-
-//   const limitedServices = service && service.length > 6 ? service.slice(0, 6) : service
-
-//   const filteredServices = service && service[6] && service[6].choose && service[6].choose.length === 6 ? service[6].choose.slice(0, 6)  : service[6].choose
-      
-// return (
-//     <>
-//     <div className="relative z-10 h-64 top-96 flex flex-wrap items-center justify-center gap-14 opacity-50">
-//       {
-//       limitedServices && limitedServices.length > (0) ? limitedServices.map((data,index)=>{
-//           return(
-            
-//               <div key={index} className="w-96 h-5/6 bg-green-400 text-green-950 font-semibold text-xl items-center grid justify-center rounded-md">
-                
-//                 <p className="flex justify-center">{data.image}</p>
-//                 <p className="flex justify-center">{data.topic}</p>
-//                 <p className="flex justify-center">{data.content}</p>
-//                 </div>
-//               )
-//         }) : (
-//           <div>No services available</div>
-//         )
-//       }
-
-//     </div>
-//     <div className="service_choose">
-//       <div className="grid justify-center relative bottom-28 gap-4">
-//     <p className="text-5xl font-semibold text-green-700">why choose us</p>
-//     <p className="text-lg font-bold text-gray-500">jksdbchbscbdjcbschbnjcbdcnbsbj</p>
-//     </div> 
-      
-//     <div className="  z-10 h-64  flex flex-wrap items-center justify-center gap-14 opacity-50">
-      
-       
-//       {
-//         filteredServices.length > 0 ? (
-//           filteredServices.map((data, index) => (
-//             <div key={index} className="w-96 h-5/6 bg-green-400 text-green-950 font-semibold text-xl items-center grid justify-center rounded-md">
-//               <p>{data.image}</p>
-//               <p>{data.topic}</p>
-//               <p>{data.content}</p>
-//             </div>
-//           ))
-//         ) : (
-//           <div>No services available</div>
-//         )
-//       }
-//     </div>
-//    </div>
-//     </>
-//   )
-// }
-
-
 import React, { useContext } from 'react';
 import { DContext } from '../Datacontext/Datacontext';
 
@@ -75,53 +15,52 @@ export const Services = () => {
   return (
     <>
       {/* Limited Services Section */}
-      <div className="relative z-10 top-80 flex flex-wrap items-center justify-center gap-8 md:gap-14 px-4">
-        {limitedServices && limitedServices.length > 0 ? (
-          limitedServices.map((data, index) => (
-            <div
-              key={index}
-              className="w-full sm:w-64 md:w-72 lg:w-80 text-black bg-white font-semibold text-center p-4 rounded-md shadow-lg"
-            >
-              <p className="mb-2">{data.image}</p>
-              <p className="text-xl mb-2">{data.topic}</p>
-              <p className="text-sm">{data.content}</p>
-            </div>
-          ))
-        ) : (
-          <div>No services available</div>
-        )}
+      <div className="relative z-10 top-20 bg-white py-12">
+        <div className="flex flex-wrap justify-center gap-8 md:gap-14 px-4">
+          {limitedServices && limitedServices.length > 0 ? (
+            limitedServices.map((data, index) => (
+              <div
+                key={index}
+                className="w-full sm:w-64 md:w-72 lg:w-1/4 text-black bg-white font-semibold text-center p-8 rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+              >
+                <img src={data.image} alt="image" className="w-16 h-16 mx-auto mb-4" />
+                <p className="text-xl mb-2 text-blue-700">{data.topic}</p>
+                <p className="text-sm text-gray-700">{data.content}</p>
+              </div>
+            ))
+          ) : (
+            <div className="text-center text-gray-500">No services available</div>
+          )}
+        </div>
       </div>
 
       {/* "Why Choose Us" Section */}
-      <div className="service_choose px-4">
-        <div className="grid justify-center relative bottom-14 gap-4">
+      <div className="service_choose px-4 bg-white py-12">
+        <div className="grid justify-center text-center gap-4">
           <p className="text-3xl sm:text-4xl md:text-5xl font-semibold text-blue-600">Why Choose Us</p>
           <p className="text-sm sm:text-base md:text-lg font-bold text-black">
-            jksdbchbscbdjcbschbnjcbdcnbsbj
+            We combine innovation, reliability, and customer focus to deliver IT solutions that drive business success. Our expert team provides tailored services and seamless support to ensure your growth. With a track record of successful projects, we are the trusted partner for your digital transformation.
           </p>
         </div>
 
         {/* Filtered Services Section */}
-        <div className="z-10 flex flex-wrap items-center justify-center gap-8 md:gap-14 px-4">
+        <div className="relative z-10 flex flex-wrap justify-center gap-8 md:gap-14 px-4">
           {filteredServices && filteredServices.length > 0 ? (
             filteredServices.map((data, index) => (
               <div
                 key={index}
-                className="w-full sm:w-64 md:w-72 lg:w-80 text-black bg-white font-semibold text-center p-4 rounded-md shadow-lg"
+                className="w-full sm:w-64 md:w-72 lg:w-1/4 text-black bg-white font-semibold text-center p-8 rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
               >
-                <p className="mb-2">{data.image}</p>
-                <p className="text-xl mb-2">{data.topic}</p>
-                <p className="text-sm">{data.content}</p>
+                <img src={data.image} alt="image" className="w-16 h-16 mx-auto mb-4" />
+                <p className="text-xl mb-2 text-blue-700">{data.topic}</p>
+                <p className="text-sm text-gray-700">{data.content}</p>
               </div>
             ))
           ) : (
-            <div>No services available</div>
+            <div className="text-center text-gray-500">No services available</div>
           )}
         </div>
       </div>
     </>
   );
 };
-
-
-
