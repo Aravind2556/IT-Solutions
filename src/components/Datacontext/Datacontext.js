@@ -119,73 +119,89 @@ const service = [
 
 const portfolio = [
   {
-    image : "hfyt"
+    image : "jhvj",
+    title : `Unified Projects Showcase`,
+    content : `Description: Explore a blend of our top achievements across various domains. From design to development, these projects highlight our diverse expertise and commitment to excellence.
+Story: A platform where creativity meets functionality, delivering solutions that redefine industries.`
+},
+  {
+    image : "hfyt",
+    title : `Stunning User Interfaces`,
+    content : `Beautifully crafted app designs that enhance user experience and engagement.
+Story: We designed an intuitive app for a fitness startup, featuring user-friendly navigation and vibrant aesthetics. The design led to a 30% increase in customer retention.`
 
   },
   {
-    image : "hfyt"
+    image : "hfyt",
+    title : `Robust Mobile Solutions`,
+    content : `High-performance apps tailored to meet your business goals.
+Story: Developed a secure e-commerce app for a retail giant, integrating advanced payment systems and AI-based product recommendations. The app boosted sales by 50%.`
+  },
+  {
+    image : "hfyt",
+    title : `Building Brand Identity`,
+    content : `Unique and memorable brand designs that tell your story.
+Story: Revamped the branding for a local coffee chain with a modern logo, cohesive packaging, and digital assets, which doubled their customer base in three months.`
 
   },
   {
-    image : "hfyt"
-
-  },
-  {
-    image : "hfyt"
-
-  },
-  {
-    image : "hfyt"
+    image : "hfyt",
+    title : `Tailored Tech Innovations`,
+    content : `Scalable and efficient IT solutions to empower growth.
+Story: Designed and implemented a custom CRM solution for a healthcare company, reducing manual work by 40% and improving patient management efficiency.`
 
   },{
-    image : "hfyt"
+    image : "hfyt",
+    title : `Comprehensive Digital Makeover`,
+    content : `A one-stop solution combining design, development, and branding.
+Story: Partnered with a growing startup to revamp their online presence. Delivered a modern website, branding overhaul, and a high-performing app, leading to a 300% growth in online engagement.`
 
   },
   {
     pricingplane : [
       {
-        bacsic : "bascic",
-        amount : "87897",
-        space : "jjbd",
-        domain : "jhdgsj",
-        ssl : "jsdhj",
-        backup : "jskdh",
-        templete : "sdjvhudc",
-        email : "sjbvjhs",
-        database : "jfvhgsh",
-        unlimitedemail  :"dsbhuj",
-        support : "vsgdbvjchs",
-        order : "sjvgh"
+        basic: "Basic",
+      amount: "2500",
+      space: "Unlimited GB space",
+      domain: "30 Domain Names",
+      ssl: "Free SSL",
+      backup: "Daily Backup",
+      templete: "Free Templates",
+      email: "Free Email",
+      database: "10 Databases",
+      unlimitedemail: "Unlimited Email Address",
+      support: "Live Support",
+      order: "Order Now",
 
       },
       {
-        bacsic : "bascic",
-        amount : "87897",
-        space : "jjbd",
-        domain : "jhdgsj",
-        ssl : "jsdhj",
-        backup : "jskdh",
-        templete : "sdjvhudc",
-        email : "sjbvjhs",
-        database : "jfvhgsh",
-        unlimitedemail  :"dsbhuj",
-        support : "vsgdbvjchs",
-        order : "sjvgh"
+        basic: "Standard",
+      amount: "3000",
+      space: "Unlimited GB space",
+      domain: "50 Domain Names",
+      ssl: "Free SSL",
+      backup: "Daily Backup",
+      templete: "Free Templates",
+      email: "Free Email",
+      database: "20 Databases",
+      unlimitedemail: "Unlimited Email Address",
+      support: "Live Support",
+      order: "Order Now",
 
       },
       {
-        bacsic : "bascic",
-        amount : "87897",
-        space : "jjbd",
-        domain : "jhdgsj",
-        ssl : "jsdhj",
-        backup : "jskdh",
-        templete : "sdjvhudc",
-        email : "sjbvjhs",
-        database : "jfvhgsh",
-        unlimitedemail  :"dsbhuj",
-        support : "vsgdbvjchs",
-        order : "sjvgh"
+        basic: "Premium",
+      amount: "3500",
+      space: "Unlimited GB space",
+      domain: "100 Domain Names",
+      ssl: "Free SSL",
+      backup: "Daily Backup",
+      templete: "Free Templates",
+      email: "Free Email",
+      database: "50 Databases",
+      unlimitedemail: "Unlimited Email Address",
+      support: "Live Support",
+      order: "Order Now",
 
       },
     ]

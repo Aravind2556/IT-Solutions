@@ -9,6 +9,8 @@ import { Testimonials } from './Webpages/Testimonials'
 import { Growth } from './Webpages/Growth'
 import { Team } from './Webpages/Team'
 
+const items = ['Testimonial 1', 'Testimonial 2', 'Testimonial 3', 'Testimonial 4', 'Testimonial 5'];
+
 export const Storage = () => {
   return (
     <>
@@ -23,7 +25,7 @@ export const Storage = () => {
         <Home/>
         <Services/>
         <Portfolio/>
-        <Testimonials/>
+        <Testimonials items={items} initialActive={0} />
         <Growth/>
         <Team/>
     </div>

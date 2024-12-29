@@ -1,6 +1,8 @@
+/* index.css or styles.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 .service_choose{
     position: relative;
@@ -8,7 +10,7 @@
 }
 .portfolio{
     position: relative;
-    top: 430px;
+    top: 50px;
 }
 .scroll{
     position: relative;
@@ -22,3 +24,37 @@
     position: relative;
     top: 500px;
 }
+
+
+
+@layer utilities {
+    @keyframes carousel-animate-vertical {
+      0% {
+        transform: translateY(100%) scale(0.5);
+        opacity: 0;
+        visibility: hidden;
+      }
+      27%,
+      33% {
+        transform: translateY(100%) scale(0.7);
+        opacity: .4;
+        visibility: visible;
+      }
+      34%,
+      66% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+        visibility: visible;
+      }
+      67%,
+      100% {
+        transform: translateY(-100%) scale(0.7);
+        opacity: .4;
+        visibility: visible;
+      }
+    }
+    .animate-carousel {
+      animation: carousel-animate-vertical 27s linear infinite;
+    }
+  }
+  
