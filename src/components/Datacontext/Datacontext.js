@@ -11,6 +11,7 @@ import Approch from '../../assest/Approch.png'
 import pricing from '../../assest/pricing.png'
 import Delivery from '../../assest/timing.png'
 import Support from '../../assest/support.png'
+import Logo from '../../assest/GP codefusion.png'
 
 
 
@@ -23,7 +24,7 @@ function Datacontext(props) {
   
   const navbar = {
 
-    logo : "logo",
+    logo : Logo,
     home : "home",
     services : "services",
     portfolio : "portfolio",
