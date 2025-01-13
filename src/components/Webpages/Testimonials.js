@@ -45,10 +45,10 @@ export const Testimonial = () => {
   const { name, role, image, rating, feedback } = testimonials[currentIndex];
 
   return (
-    <div className="relative z-10 py-10 px-5 top-6 bg-white">
+    <div className="relative z-10 py-10 px-5 top-6 bg-white h-60">
       <div className="container mx-auto text-center">
         <h3 className="text-2xl font-bold mb-4 text-blue-500">Our Team</h3>
-        <div className="relative max-w-lg mx-auto bg-slate-200 bg-opacity-90 shadow-inner rounded-lg p-6 h-[300px] w-[600px]">
+        <div className="relative max-w-lg mx-auto bg-white bg-opacity-90 shadow-md rounded-lg p-6">
           <div className="flex justify-center mb-4">
             <img
               src={image}
