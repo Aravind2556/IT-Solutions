@@ -18,7 +18,7 @@ export const Home = () => {
       {/* Header */}
       <div className="text-center">
         <h1 className="text-3xl font-semibold sm:text-4xl md:text-5xl">
-          Delivering Superior IT Solutions
+          Delivering Superior Development
         </h1>
         <h2 className="text-blue-500 font-bold mt-2">Services</h2>
       </div>
@@ -26,7 +26,7 @@ export const Home = () => {
       {/* Description */}
       <div className="w-full max-w-3xl text-center text-lg sm:text-xl font-medium">
         <p>
-          Welcome to <span className="font-bold text-blue-400 first-letter:text-3xl">Prelogg</span>, your trusted partner in innovative web development and IT solutions. 
+          Welcome to <span className="font-bold text-blue-400 first-letter:text-3xl">PRELOGG</span>, your trusted partner in innovative web development and IT solutions. 
           We are committed to delivering unparalleled services tailored to meet your unique business needs.
         </p>
       </div>

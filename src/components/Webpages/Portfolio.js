@@ -32,9 +32,11 @@ export const Portfolio = () => {
         <div className="z-10 grid justify-center gap-6 text-center mt-8 text-white relative">
           <div>
             <p className="text-3xl sm:text-4xl font-semibold">Our Portfolio</p>
+            <div className="flex justify-center">
             <p className="text-sm sm:text-base w-2/3 text-center">
               We take pride in delivering exceptional projects across diverse domains. From app design to IT solutions, our portfolio showcases the creativity, innovation, and expertise we bring to every project.
             </p>
+            </div>
           </div>
 
           {/* Categories Section */}

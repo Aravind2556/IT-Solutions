@@ -11,7 +11,7 @@ import Approch from '../../assest/Approch.png'
 import pricing from '../../assest/pricing.png'
 import Delivery from '../../assest/timing.png'
 import Support from '../../assest/support.png'
-import Logo from '../../assest/Prelog.png'
+import Logo from '../../assest/WhatsApp_Image_2025-01-13_at_23.22.15_d0dcbcec-removebg-preview.png'
 
 
 

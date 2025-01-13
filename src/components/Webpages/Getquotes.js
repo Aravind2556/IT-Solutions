@@ -54,7 +54,7 @@ const Getquotes = () => {
   };
 
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white ">
       
 
       {/* Contact Form */}

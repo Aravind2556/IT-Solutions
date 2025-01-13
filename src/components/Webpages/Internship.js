@@ -5,7 +5,7 @@ import { Internmail } from "./Internmail";
 
 
 const InternshipPage = () => {
-  const languages = ['Python', 'Java', 'JavaScript', 'Data Science', 'Machine Learning'];
+  const languages = ['Html','Css','JavaScript','Python', 'Java', 'JavaScript', 'Data Science', 'Machine Learning'];
   const [selectedLanguage, setSelectedLanguage] = useState(''); // Track selected language
 
   // Google Form base URL

@@ -47,7 +47,7 @@ export const Header = () => {
                             onClick={() => setMenuOpen((prev) => !prev)}
                             className="hover:text-blue-600 focus:outline-none"
                         >
-                            {navbar.menu}
+                            {navbar.menu} &#8595;
                         </button>
                         {menuOpen && (
                             <div className="absolute top-full left-0 mt-2 bg-white text-black shadow-lg rounded-md py-2 w-32">
