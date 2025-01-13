@@ -8,6 +8,7 @@ import { Testimonial } from './Testimonials'
 
 
 import Getquotes from './Getquotes'
+import Footer from './Footer';
 
 
 export const Navbar = () => {
@@ -36,6 +37,7 @@ export const Navbar = () => {
      
       
       <Getquotes />
+      <Footer/>
     </>
   );
 };

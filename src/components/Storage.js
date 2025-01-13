@@ -4,6 +4,7 @@ import { Navbar } from './Webpages/Navbar'
 
 import { Home } from './Webpages/Home'
  import Internship from './Webpages/Internship'
+import Getquotes from './Webpages/Getquotes'
 
 
 
@@ -15,6 +16,7 @@ export const Storage = () => {
         
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/internship' element={<Internship/>}></Route>
+        <Route path='/quotes' element={<Getquotes/>}></Route>
     </Routes>
     
   

@@ -11,7 +11,7 @@ import Approch from '../../assest/Approch.png'
 import pricing from '../../assest/pricing.png'
 import Delivery from '../../assest/timing.png'
 import Support from '../../assest/support.png'
-import Logo from '../../assest/GP codefusion.png'
+import Logo from '../../assest/Prelog.png'
 
 
 
@@ -161,48 +161,48 @@ Story: Partnered with a growing startup to revamp their online presence. Deliver
   {
     pricingplane : [
       {
-        basic: "Basic",
-      amount: "2500",
-      space: "Unlimited GB space",
-      domain: "30 Domain Names",
-      ssl: "Free SSL",
-      backup: "Daily Backup",
-      templete: "Free Templates",
-      email: "Free Email",
-      database: "10 Databases",
-      unlimitedemail: "Unlimited Email Address",
-      support: "Live Support",
-      order: "Order Now",
+        basic: "✅Basic",
+      amount: "₹1500",
+      space: "✅Unlimited GB space",
+      domain: "✅2 Domain Names",
+      ssl: "✅SSL Certificate",
+      backup: "✅Daily Backup",
+      templete: "✅1 Templates",
+      email: "✅Free Email",
+      database: "✅10 Databases",
+      unlimitedemail: "✅3 Email Address",
+      support: "✅Live Support",
+      order: "✅Order Now",
 
       },
       {
-        basic: "Standard",
-      amount: "3000",
-      space: "Unlimited GB space",
-      domain: "50 Domain Names",
-      ssl: "Free SSL",
-      backup: "Daily Backup",
-      templete: "Free Templates",
-      email: "Free Email",
-      database: "20 Databases",
-      unlimitedemail: "Unlimited Email Address",
-      support: "Live Support",
-      order: "Order Now",
+        basic: "✅Standard",
+      amount: "₹5000",
+      space: "✅Unlimited GB space",
+      domain: "✅5 Domain Names",
+      ssl: "✅SSL Certificate",
+      backup: "✅Daily Backup",
+      templete: "✅3 Templates",
+      email: "✅Free Email",
+      database: "✅20 Databases",
+      unlimitedemail: "✅7 Email Address",
+      support: "✅Live Support",
+      order: "✅Order Now",
 
       },
       {
-        basic: "Premium",
-      amount: "3500",
-      space: "Unlimited GB space",
-      domain: "100 Domain Names",
-      ssl: "Free SSL",
-      backup: "Daily Backup",
-      templete: "Free Templates",
-      email: "Free Email",
-      database: "50 Databases",
-      unlimitedemail: "Unlimited Email Address",
-      support: "Live Support",
-      order: "Order Now",
+        basic: "✅Premium",
+      amount: "₹10000",
+      space: "✅Unlimited GB space",
+      domain: "✅10 Domain Names",
+      ssl: "✅SSL Certificate",
+      backup: "✅Daily Backup",
+      templete: "✅5 Templates",
+      email: "✅Free Email",
+      database: "✅50 Databases",
+      unlimitedemail: "✅Unlimited Email Address",
+      support: "✅Live Support",
+      order: "✅Order Now",
 
       },
     ]

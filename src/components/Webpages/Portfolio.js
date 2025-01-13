@@ -32,7 +32,7 @@ export const Portfolio = () => {
         <div className="z-10 grid justify-center gap-6 text-center mt-8 text-white relative">
           <div>
             <p className="text-3xl sm:text-4xl font-semibold">Our Portfolio</p>
-            <p className="text-sm sm:text-base">
+            <p className="text-sm sm:text-base w-2/3 text-center">
               We take pride in delivering exceptional projects across diverse domains. From app design to IT solutions, our portfolio showcases the creativity, innovation, and expertise we bring to every project.
             </p>
           </div>
@@ -79,16 +79,16 @@ export const Portfolio = () => {
                 >
                    <p className="text-2xl text-blue-700">{data.basic}</p>
                 <p className="text-xl text-green-700">{data.amount}</p>
-                <p className="text-sm text-gray-700">{data.space}</p>
+                
                 <p className="text-sm text-gray-700">{data.domain}</p>
                 <p className="text-sm text-gray-700">{data.ssl}</p>
                 <p className="text-sm text-gray-700">{data.backup}</p>
                 <p className="text-sm text-gray-700">{data.templete}</p>
-                <p className="text-sm text-gray-700">{data.email}</p>
+                
                 <p className="text-sm text-gray-700">{data.database}</p>
                 <p className="text-sm text-gray-700">{data.unlimitedemail}</p>
                 <p className="text-sm text-gray-700">{data.support}</p>
-                <p className="text-sm text-blue-700">{data.order}</p>
+                
                 </div>
               ))
             ) : (

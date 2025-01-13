@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Header } from "./Header";
+import Footer from "./Footer";
+import { Internmail } from "./Internmail";
 
 
 const InternshipPage = () => {
@@ -17,7 +19,7 @@ const InternshipPage = () => {
   return (
     <>
      <Header/>
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-blue-50 p-4 relative top-20">
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-blue-50 p-4 relative top-16">
       {/* Header Section */}
       <header className="text-center mb-8">
         <h1 className="text-4xl font-extrabold text-blue-800 drop-shadow-md">
@@ -50,22 +52,14 @@ const InternshipPage = () => {
         </section>
 
         {/* Google Form */}
-        <section>
-          <h2 className="text-3xl font-semibold text-green-700 mb-4">Application Form</h2>
-          {selectedLanguage ? (
-            <iframe
-              src={googleFormURL}
-              title="Internship Application Form"
-              className="w-full h-96 border-4 border-blue-300 rounded-lg shadow-md"
-            ></iframe>
-          ) : (
-            <p className="text-gray-600 italic">
-              Please select an internship language to view the application form.
-            </p>
-          )}
-        </section>
+      <div>
+        <Internmail/>
+      </div>
       </main>
       
+    </div>
+    <div className=" relative top-14">
+    <Footer/>
     </div>
     </>
   );

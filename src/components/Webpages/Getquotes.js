@@ -25,10 +25,10 @@ const Getquotes = () => {
     e.preventDefault();
     emailjs
       .send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_v64n5p6",
+        "template_abgnxru",
         formData,
-        "YOUR_PUBLIC_KEY"
+        "woqdTWdPjegdzu3os"
       )
       .then(
         (result) => {
@@ -59,7 +59,7 @@ const Getquotes = () => {
 
       {/* Contact Form */}
       <div className="relative z-10 flex items-center justify-center min-h-screen ">
-        <div className="bg-white/90 p-8 rounded-lg shadow-xl max-w-4xl w-full">
+        <div className="bg-slate-200 p-8 rounded-lg shadow-xl max-w-4xl w-full">
           <h1 className="text-3xl font-bold text-blue-700 mb-6 text-center">
             Contact Us
           </h1>

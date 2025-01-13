@@ -47,8 +47,8 @@ export const Testimonial = () => {
   return (
     <div className="relative z-10 py-10 px-5 top-6 bg-white">
       <div className="container mx-auto text-center">
-        <h3 className="text-2xl font-bold mb-4 text-white">Testimonials</h3>
-        <div className="relative max-w-lg mx-auto bg-white bg-opacity-90 shadow-md rounded-lg p-6">
+        <h3 className="text-2xl font-bold mb-4 text-blue-500">Our Team</h3>
+        <div className="relative max-w-lg mx-auto bg-slate-200 bg-opacity-90 shadow-inner rounded-lg p-6 h-[300px] w-[600px]">
           <div className="flex justify-center mb-4">
             <img
               src={image}
