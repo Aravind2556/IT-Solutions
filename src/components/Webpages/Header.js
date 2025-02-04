@@ -35,7 +35,7 @@ export const Header = () => {
             <div className="container mx-auto flex justify-between items-center px-4 md:px-8 h-16">
                 {/* Logo */}
                 <a href="/" className="text-lg font-bold flex items-center">
-                    <img src={navbar.logo} alt="Logo" className="w-28 h-10"/>
+                    <img src={navbar.logo} alt="Logo" className=" h-14 w-14"/>
                     
                 </a>
 
@@ -45,9 +45,9 @@ export const Header = () => {
                     <div className="relative" ref={menuRef}>
                         <button
                             onClick={() => setMenuOpen((prev) => !prev)}
-                            className="hover:text-blue-600 focus:outline-none"
+                            className="hover:text-blue-600 focus:outline-none items-center"
                         >
-                            {navbar.menu} &#8595;
+                            {navbar.menu} <i class="bi bi-caret-down-fill"></i>
                         </button>
                         {menuOpen && (
                             <div className="absolute top-full left-0 mt-2 bg-white text-black shadow-lg rounded-md py-2 w-32">

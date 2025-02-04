@@ -1,23 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import Twitter from '../../assest/twitter.png'
 import Facebook from '../../assest/facebook.png'
 import Linkedin from '../../assest/linkedin.png'
 import Instagram from '../../assest/instagram.png'
+import { DContext } from "../Datacontext/Datacontext";
 
 const Footer = () => {
+  const {navbar}=useContext(DContext)
   return (
-    <footer className="text-white bg-gray-800 text-center lg:text-left relative">
+    <footer className="text-white bg-gray-400 text-center lg:text-left relative p-2">
       
       <section className="container mx-auto py-10 px-6 grid grid-cols-1 lg:grid-cols-3 gap-8">
         
         <div>
-          <h6 className="uppercase font-semibold mb-4 flex items-center">
-            <i className="fas fa-gem mr-3"></i> Prelogg
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
+          <img src={navbar.logo} alt="logo" className="w-60 h-20"/>
         </div>
 
         
@@ -25,7 +21,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           
             <div>
-              <h6 className="uppercase font-semibold mb-4">Products</h6>
+              <h6 className="uppercase font-semibold mb-4 text-xl">Products</h6>
               <ul className="space-y-2">
                 <li>
                   <a href="#!" className="hover:text-blue-500">
@@ -39,7 +35,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#!" className="hover:text-blue-500">
-                    Gaming Application
+                    E-com Application
                    
                   </a>
                 </li>
@@ -53,7 +49,7 @@ const Footer = () => {
 
            
             <div>
-              <h6 className="uppercase font-semibold mb-4">Useful Links</h6>
+              <h6 className="uppercase font-semibold mb-4 text-xl">Useful Links</h6>
               <ul className="space-y-2">
                 <li>
                   <a href="#!" className="hover:text-blue-500">
@@ -128,7 +124,7 @@ const Footer = () => {
       
       <div className="bg-gray-800 text-center py-4">
         <p>
-          © 2023 Copyright:{" "}
+        © 2023 PRELOGG.All rights reserved.
         </p>
       </div>
     </footer>

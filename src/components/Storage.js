@@ -13,7 +13,6 @@ export const Storage = () => {
     <>
     <Routes>
         <Route path='/' element={<Navbar/>}></Route>
-        
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/internship' element={<Internship/>}></Route>
         <Route path='/quotes' element={<Getquotes/>}></Route>
